@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Berita</title>
+    <link rel="stylesheet" href="detail-berita.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">Berita Kini</div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#" class="active">Beranda</a></li>
+                    <li><a href="#">Kesehatan</a></li>
+                    <li><a href="#">Otomotif</a></li>
+                    <li><a href="#">Politik</a></li>
+                    <li><a href="#">Olahraga</a></li>
+                    <li><a href="#">Nasional</a></li>
+                    <li><a href="#">Internasional</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-container">
+        <!-- Breadcrumb -->
+        <div class="breadcrumb">
+            <a href="#">Beranda</a>
+            <span class="separator">></span>
+            <a href="#">Nasional</a>
+            <span class="separator">></span>
+            <span class="current">Detail</span>
+        </div>
+
+        <div class="content-wrapper">
+            <!-- Kolom Kiri - Konten Utama -->
+            <div class="main-content">
+                <!-- 1. Artikel -->
+                <article class="main-article">
+                    <h1 class="article-title">Respons PSSI Soal Opsi Pindah dari GBK jika Lolos Babak 3 Kualifikasi</h1>
+                    
+                    <div class="article-meta">
+                        <span class="category">Politik</span>
+                        <span class="date">22 Jan 2024</span>
+                    </div>
+
+                    <div class="article-image">
+                        <img src="images/headline.jpg" alt="Kondisi Rumput GBK">
+                        <figcaption>Rumput GBK tidak kunjung bagus, Timnas Indonesia bisa pindah kandang. (CNN Indonesia/Adhi Wicaksono)</figcaption>
+                    </div>
+
+                    <div class="article-content">
+                        <div class="article-source">
+                            <strong>Jakarta, CNN Indonesia --</strong>
+                        </div>
+                        <p>Ketua Badan Tim Nasional (BTN) PSSI Sumardji angkat bicara soal kemungkinan Timnas Indonesia pindah kandang dari Stadion Utama Gelora Bung Karno (SUGBK) jika lolos ke babak ketiga Kualifikasi Piala Dunia 2026.</p>
+                        <p>Sumardji mengatakan pihaknya masih menunggu perkembangan kondisi rumput SUGBK yang belum kunjung membaik. Menurutnya, jika kondisi rumput tidak membaik dalam waktu dekat, maka ada kemungkinan Timnas Indonesia akan memindahkan kandang ke stadion lain.</p>
+                        <p>"Kami masih menunggu perkembangan kondisi rumput SUGBK. Kalau memang tidak memungkinkan, kami akan mencari alternatif stadion lain yang memenuhi standar FIFA," ujar Sumardji kepada CNNIndonesia.com, Senin (22/1).</p>
+                        <p>Sumardji menambahkan bahwa pihaknya sudah melakukan survei ke beberapa stadion yang berpotensi menjadi kandang Timnas Indonesia. Namun, dia belum bisa memastikan stadion mana yang akan dipilih.</p>
+                        <p>"Ada beberapa opsi yang sedang kami pertimbangkan. Yang pasti, stadion tersebut harus memenuhi standar FIFA dan memiliki fasilitas yang memadai," kata Sumardji.</p>
+                        <p>Sebelumnya, kondisi rumput SUGBK mendapat sorotan setelah pertandingan leg pertama babak kedua Kualifikasi Piala Dunia 2026 antara Indonesia melawan Vietnam pada 21 Januari 2024. Rumput stadion kebanggaan Indonesia itu terlihat tidak dalam kondisi ideal.</p>
+                    </div>
+                </article>
+
+                <!-- 2. Komentar -->
+                <section class="comments-section">
+                    <h2 class="section-title">
+                        <span class="vertical-line"></span>
+                        Komentar
+                    </h2>
+
+                    <div class="comment-form">
+                        <textarea placeholder="Apa yang ingin anda tanyakan?" maxlength="50"></textarea>
+                        <div class="form-footer">
+                            <span class="char-count">0/50</span>
+                            <button type="submit" class="btn-submit">Kirim</button>
+                        </div>
+                    </div>
+
+                    <div class="comments-list">
+                        <!-- Komentar Utama -->
+                        <div class="comment">
+                            <div class="comment-avatar">
+                                <img src="images/bapak1.jpg" alt="User Avatar">
+                            </div>
+                            <div class="comment-content">
+                                <div class="comment-header">
+                                    <span class="user-name">Dr. Ahmad Syafiq</span>
+                                    <span class="user-title">Dokter Spesialis</span>
+                                    <span class="comment-time">2 jam yang lalu</span>
+                                </div>
+                                <p class="comment-text">Kondisi rumput GBK memang perlu perhatian khusus. Semoga bisa segera diperbaiki agar tidak mengganggu performa tim nasional.</p>
+                                <a href="#" class="reply-btn">Balas</a>
+                            </div>
+                        </div>
+
+                        <!-- Komentar Balasan -->
+                        <div class="comment reply">
+                            <div class="comment-avatar">
+                                <img src="images/bapak2.jpg" alt="User Avatar">
+                            </div>
+                            <div class="comment-content">
+                                <div class="comment-header">
+                                    <span class="user-name">Budi Santoso</span>
+                                    <span class="user-title">Pengamat Sepakbola</span>
+                                    <span class="comment-time">1 jam yang lalu</span>
+                                </div>
+                                <p class="comment-text">Setuju, kualitas rumput sangat mempengaruhi permainan tim.</p>
+                                <a href="#" class="reply-btn">Balas</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="comments-navigation">
+                        <div class="items-per-page">
+                            <label for="itemCount">Tampilkan:</label>
+                            <select id="itemCount">
+                                <option value="5">5</option>
+                                <option value="10">10</option>
+                                <option value="20">20</option>
+                            </select>
+                        </div>
+                        <div class="pagination">
+                            <a href="#" class="prev">←</a>
+                            <a href="#" class="active">1</a>
+                            <a href="#">2</a>
+                            <a href="#">3</a>
+                            <a href="#" class="next">→</a>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 3. Berita Terkait -->
+                <section class="related-news">
+                    <h2 class="section-title">
+                        <span class="vertical-line"></span>
+                        Berita Terkait
+                    </h2>
+                    <div class="news-cards">
+                        <article class="news-card">
+                            <img src="images/berita-terkait1.jpg" alt="Berita 1">
+                            <div class="card-content">
+                                <span class="category">Olahraga</span>
+                                <h3>Timnas Indonesia U-23 Siap Hadapi Kualifikasi Piala Asia</h3>
+                                <span class="date">22 Jan 2024</span>
+                            </div>
+                        </article>
+
+                        <article class="news-card">
+                            <img src="images/berita-terkait2.jpg" alt="Berita 2">
+                            <div class="card-content">
+                                <span class="category">Nasional</span>
+                                <h3>Renovasi Stadion Utama GBK Akan Dimulai Bulan Depan</h3>
+                                <span class="date">22 Jan 2024</span>
+                            </div>
+                        </article>
+
+                        <article class="news-card">
+                            <img src="images/berita-terkait3.jpg" alt="Berita 3">
+                            <div class="card-content">
+                                <span class="category">Olahraga</span>
+                                <h3>PSSI Umumkan Jadwal Liga 1 2024/2025</h3>
+                                <span class="date">22 Jan 2024</span>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Kolom Kanan - Sidebar -->
+            <aside class="sidebar">
+                <div class="popular-news">
+                    <h2 class="section-title">
+                        <span class="vertical-line"></span>
+                        Berita Terpopuler
+                    </h2>
+                    <div class="popular-list">
+                        <article class="popular-item">
+                            <span class="number">1</span>
+                            <div class="popular-content">
+                                <img src="images/berita1.jpg" alt="Berita 1">
+                                <div class="popular-text">
+                                    <span class="category">Politik</span>
+                                    <h3>KPU Tetapkan Hasil Pemilu 2024</h3>
+                                    <span class="date">22 Jan 2024</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="popular-item">
+                            <span class="number">2</span>
+                            <div class="popular-content">
+                                <img src="images/berita2.png" alt="Berita 2">
+                                <div class="popular-text">
+                                    <span class="category">Nasional</span>
+                                    <h3>Harga BBM Turun di Awal 2024</h3>
+                                    <span class="date">22 Jan 2024</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="popular-item">
+                            <span class="number">3</span>
+                            <div class="popular-content">
+                                <img src="images/berita3.jpg" alt="Berita 3">
+                                <div class="popular-text">
+                                    <span class="category">Olahraga</span>
+                                    <h3>Timnas Indonesia Siap Hadapi Vietnam</h3>
+                                    <span class="date">22 Jan 2024</span>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="footer-logo">Berita Kini</div>
+                <p>© 2023 Berita Kini. All Rights Reserved.</p>
+            </div>
+
+            <div class="footer-social">
+                <h3>Ikuti Kami</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-nav">
+                <h3>Kategori</h3>
+                <ul>
+                    <li><a href="#">Beranda</a></li>
+                    <li><a href="#">Kesehatan</a></li>
+                    <li><a href="#">Otomotif</a></li>
+                    <li><a href="#">Politik</a></li>
+                    <li><a href="#">Olahraga</a></li>
+                    <li><a href="#">Nasional</a></li>
+                    <li><a href="#">Internasional</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-help">
+                <h3>Bantuan</h3>
+                <ul>
+                    <li><a href="#">Kontak Kami</a></li>
+                    <li><a href="#">Laporan Pembajakan</a></li>
+                    <li><a href="#">Kebijakan</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-subscribe">
+                <h3>Berlangganan</h3>
+                <div class="subscribe-form">
+                    <input type="email" placeholder="Masukkan email Anda">
+                    <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
